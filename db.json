@@ -1,0 +1,20 @@
+{
+  "transactions": [
+    {
+      "id": "1",
+      "date": "2024-07-18",
+      "description": "Groceries",
+      "amount": 50,
+      "category": "Expense",
+      "paymentMethod": "Credit Card"
+    },
+    {
+      "id": "3",
+      "date": "2024-07-16",
+      "description": "Dinner",
+      "amount": 30,
+      "category": "Income",
+      "paymentMethod": "Debit Card"
+    }
+  ]
+}

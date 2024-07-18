@@ -1,0 +1,39 @@
+{
+  "auth": [
+    {
+      "email": "Aho@gmail.com",
+      "password": "123",
+      "id": "dc63"
+    },
+    {
+      "id": "8d74",
+      "email": "Ullas@gmail.com",
+      "password": "456"
+    },
+    {
+      "id": "0e54",
+      "email": "Om@gmail.com",
+      "password": "999"
+    },
+    {
+      "id": "7471",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "5c5c",
+      "email": "rcb@gmail.com",
+      "password": "rcb"
+    },
+    {
+      "id": "6543",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "7749",
+      "email": "man@gmail.com",
+      "password": "man"
+    }
+  ]
+}

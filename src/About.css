@@ -1,0 +1,58 @@
+.intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://img.freepik.com/free-vector/dollar-sign-pattern-background_23-2150927123.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721174400&semt=ais_user');
+}
+
+.intro-content {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro-content h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+}
+
+.btn-outline-primary {
+    border: 1px solid #007bff;
+    color:black;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.btn-outline-primary:hover {
+    background-color: #167eed;
+    color: white;
+}

@@ -1,0 +1,86 @@
+.feed{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedback-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px auto;
+    height: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .feedback-form h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  .feedback-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .feedback-form textarea {
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .feedback-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .feedback-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .feedback-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .feedback-form button:focus {
+    outline: none;
+  }
+  
+  @media (max-width: 768px) {
+    .feedback-form {
+      padding: 15px;
+    }
+    
+    .feedback-form h2 {
+      font-size: 20px;
+    }
+    
+    .feedback-form textarea {
+      height: 120px;
+      font-size: 13px;
+    }
+  }
+  
