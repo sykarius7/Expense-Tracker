@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 const Main = () => {
     const navigate = useNavigate(); 
     function home(){
-        navigate('feedBack')
+        navigate('/feedBack')
     }
     return (
         <div className="intro-containerm">
